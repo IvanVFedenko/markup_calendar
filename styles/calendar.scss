@@ -1,0 +1,228 @@
+
+.calendar-1 {
+    grid-area: calendar-1;
+}
+.calendar-1::after {
+    content: '1';
+    font-family:  'Arial', 'sans-serif';
+    font-size: 30px;
+    text-align: center;
+}
+
+.calendar-2 {
+    grid-area: calendar-2;
+}
+.calendar-2::after {
+    content: '2'
+}
+
+.calendar-3 {
+    grid-area: calendar-3;
+}
+.calendar-3::after {
+    content: '3'
+}
+
+.calendar-4 {
+    grid-area: calendar-4;
+}
+.calendar-4::after {
+    content: '4'
+}
+
+.calendar-5 {
+    grid-area: calendar-5;
+}
+.calendar-5::after {
+    content: '5'
+}
+
+.calendar-6 {
+    grid-area: calendar-6;
+}
+.calendar-6::after {
+    content: '6'
+}
+
+.calendar-7 {
+    grid-area: calendar-7;
+}
+.calendar-7::after {
+    content: '7'
+}
+
+.calendar-8 {
+    grid-area: calendar-8;
+}
+.calendar-8::after {
+    content: '8'
+}
+
+.calendar-9 {
+    grid-area: calendar-9;
+}
+.calendar-9::after {
+    content: '9'
+}
+
+.calendar-10 {
+    grid-area: calendar-10;
+}
+.calendar-10::after {
+    content: '10'
+}
+
+.calendar-11 {
+    grid-area: calendar-11;
+}
+.calendar-11::after {
+    content: '11'
+}
+
+.calendar-12{
+    grid-area: calendar-12;
+}
+.calendar-12::after {
+    content: '12'
+}
+
+.calendar-13 {
+    grid-area: calendar-13;
+}
+.calendar-13::after {
+    content: '13'
+}
+
+.calendar-14 {
+    grid-area: calendar-14;
+}
+.calendar-14::after {
+    content: '14'
+}
+
+.calendar-15 {
+    grid-area: calendar-15;
+}
+.calendar-15::after {
+    content: '15'
+}
+
+.calendar-16 {
+    grid-area: calendar-16;
+}
+.calendar-16::after {
+    content: '16'
+}
+
+.calendar-17 {
+    grid-area: calendar-17;
+}
+.calendar-17::after {
+    content: '17'
+}
+
+.calendar-18 {
+    grid-area: calendar-18;
+}
+.calendar-18::after {
+    content: '18'
+}
+
+.calendar-19 {
+    grid-area: calendar-19;
+}
+.calendar-19::after {
+    content: '19'
+}
+
+.calendar-20 {
+    grid-area: calendar-20;
+}
+.calendar-20::after {
+    content: '20'
+}
+
+.calendar-21 {
+    grid-area: calendar-21;
+}
+.calendar-21::after {
+    content: '21'
+}
+
+.calendar-22 {
+    grid-area: calendar-22;
+}
+.calendar-22::after {
+    content: '22'
+}
+
+.calendar-23 {
+    grid-area: calendar-23;
+}
+.calendar-23::after {
+    content: '23'
+}
+
+.calendar-24 {
+    grid-area: calendar-24;
+}
+.calendar-24::after {
+    content: '24'
+}
+
+.calendar-25 {
+    grid-area: calendar-25;
+}
+.calendar-25::after {
+    content: '25'
+}
+
+.calendar-26 {
+    grid-area: calendar-26;
+}
+.calendar-26::after {
+    content: '26'
+}
+
+.calendar-27 {
+    grid-area: calendar-27;
+}
+.calendar-27::after {
+    content: '27'
+}
+
+.calendar-28 {
+    grid-area: calendar-28;
+}
+.calendar-28::after {
+    content: '28'
+}
+
+.calendar-29 {
+    grid-area: calendar-29;
+}
+.calendar-29::after {
+    content: '29'
+}
+
+.calendar-30 {
+    grid-area: calendar-30;
+    display: none;
+}
+
+
+.calendar {
+    position: absolute;
+    top: 22%;
+    left: 25%;
+    display: grid;
+    grid-template-columns: repeat(7, 100px);
+    grid-template-rows: repeat(5, 100px);
+    grid-gap: 1px;
+    grid-template-areas: 
+    ". . . . . . calendar-1"
+    "calendar-2 calendar-3 calendar-4 calendar-5 calendar-6 calendar-7 calendar-8"
+    "calendar-9 calendar-10 calendar-11 calendar-12 calendar-13 calendar-14 calendar-15"
+    "calendar-16 calendar-17 calendar-18 calendar-19 calendar-20 calendar-21 calendar-22"
+    "calendar-23 calendar-24 calendar-25 calendar-26 calendar-27 calendar-28 calendar-29";
+}
