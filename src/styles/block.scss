@@ -1,7 +1,6 @@
-
  .block {
     border: 1px solid black;
- }  
+ }
 
  .block:hover {
      cursor: pointer;
@@ -18,12 +17,12 @@
     from {
         transform: translateY(0);
     }
-  
+
     to {
         transform: translateY(-20px);
     }
   }
- 
+
  :after {
     font-family:  'Arial', 'sans-serif';
     font-size: 30px;

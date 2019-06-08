@@ -1,28 +1,15 @@
-# Calendar
+# Stopwatch task
 
-Display a calendar in the middle of the screen. The HTML of the calendar needs to have the following structure:
+Create a working stopwatch with minute and second hands as shown in the [picture](stopwatch.png) using only CSS animations. The starting position of the hands should be at 0:00.
 
-```html
-    <div class="calendar calendar-30 calendar-tue">
-        <div></div>
-        <div></div>
-        <!--
-        ...
-        31 child divs in total
-        ...
-        -->
-        <div></div>
-    </div>
-```
+For this problem, testing of your solution will not be automated.
 
-If you can, please do not add anything else to the HTML (including numbers 1 through 31).
+---
+**Read the guideline before start**
 
-The `calendar-30` classname here means that the month has 30 days, and `calendar-tue` means that the first day of the month is Tuesday.
-Your calendar should also accept the following alternative classnames and display itself accordingly: `calendar-28`, `calendar-29`, `calendar-30`, `calendar-31`; `calendar-mon`, `calendar-tue`, `calendar-wed`, `calendar-thu`, `calendar-fri`, `calendar-sat`, `calendar-sun`. The first day of the week is Monday.
+[Guideline](https://github.com/mate-academy/layout_task-guideline/blob/master/README.md)
 
-Each day must be represented by a 100px × 100px #eeeeee-colored cell (including 1px black borders). The gap between the cells must be 1 pixel. The date should be written in the middle of the corresponding cell with Arial 30px font.
-Upon hovering over a cell, the cursor should become pointer. The hovered cell has to become pink and rise by 20 pixels; both of these properties are to be animated with the duration of half a second.
+**Result**
 
-Please see a [reference image](reference.png).
-
-You are encouraged to use SASS (.scss) for this task. Please do not use JavaScript.
+- [DEMO LINK](https://ivanvfedenko.github.io/layout_stop-watch/)
+- [TEST REPORT LINK](https://ivanvfedenko.github.io/layout_stop-watch/report/html_report/)
