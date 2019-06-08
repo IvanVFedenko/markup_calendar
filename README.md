@@ -11,5 +11,5 @@ For this problem, testing of your solution will not be automated.
 
 **Result**
 
-- [DEMO LINK](https://ivanvfedenko.github.io/layout_stop-watch/)
-- [TEST REPORT LINK](https://ivanvfedenko.github.io/layout_stop-watch/report/html_report/)
+- [DEMO LINK](https://ivanvfedenko.github.io/markup_calendar/)
+
