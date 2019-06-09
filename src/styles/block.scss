@@ -5,9 +5,6 @@
 
  .block:hover {
      cursor: pointer;
- }
-
- .block:active {
      background-color: #febfcb;
      animation-duration: 0.5s;
      animation-name: moving;
